@@ -1,0 +1,13 @@
+## The following may be run via phpMyAdmin rather than in Zen Cart Admin (if it gives an error)
+
+INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function)
+VALUES ('Define Clubs Status', 'DEFINE_CLUBS_STATUS', '1', 'Enable the Defined Clubs Link/Text?<br />0= Link ON, Define Text OFF<br />1= Link ON, Define Text ON<br />2= Link OFF, Define Text ON<br />3= Link OFF, Define Text OFF', 25, 59, NOW(), NOW(), NULL, 'zen_cfg_select_option(array(''0'', ''1'', ''2'', ''3''),');
+INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function)
+VALUES ('Define Officers Status', 'DEFINE_OFFICERS_STATUS', '1', 'Enable the Defined Officers Link/Text?<br />0= Link ON, Define Text OFF<br />1= Link ON, Define Text ON<br />2= Link OFF, Define Text ON<br />3= Link OFF, Define Text OFF', 25, 59, NOW(), NOW(), NULL, 'zen_cfg_select_option(array(''0'', ''1'', ''2'', ''3''),');
+INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function)
+VALUES ('Define Appointed Status', 'DEFINE_APPOINTED_STATUS', '1', 'Enable the Defined Appointed Link/Text?<br />0= Link ON, Define Text OFF<br />1= Link ON, Define Text ON<br />2= Link OFF, Define Text ON<br />3= Link OFF, Define Text OFF', 25, 59, NOW(), NOW(), NULL, 'zen_cfg_select_option(array(''0'', ''1'', ''2'', ''3''),');
+INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function)
+VALUES ('Define Callers Status', 'DEFINE_CALLERS_STATUS', '1', 'Enable the Defined Callers Link/Text?<br />0= Link ON, Define Text OFF<br />1= Link ON, Define Text ON<br />2= Link OFF, Define Text ON<br />3= Link OFF, Define Text OFF', 25, 59, NOW(), NOW(), NULL, 'zen_cfg_select_option(array(''0'', ''1'', ''2'', ''3''),');
+INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function)
+VALUES ('Define Weekly Status', 'DEFINE_WEEKLY_STATUS', '1', 'Enable the Defined Weekly Link/Text?<br />0= Link ON, Define Text OFF<br />1= Link ON, Define Text ON<br />2= Link OFF, Define Text ON<br />3= Link OFF, Define Text OFF', 25, 59, NOW(), NOW(), NULL, 'zen_cfg_select_option(array(''0'', ''1'', ''2'', ''3''),');
+
